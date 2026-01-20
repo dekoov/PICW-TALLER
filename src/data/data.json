@@ -1,0 +1,12 @@
+{
+  "inicio": {
+    "titulo": "PICW Taller",
+    "descripcion": "Concesionario de vehículos nuevos y seminuevos, enfocado en calidad, seguridad y confianza para nuestros clientes."
+  },
+  "contacto": {
+    "direccion": "Av. 6 de Diciembre y Gaspar de Villarroel, Quito",
+    "telefono": "+593 2 456 7890",
+    "email": "ventas@picwtaller.ec",
+    "horario": "Lunes a Sábado: 09h00 - 18h30"
+  }
+}
