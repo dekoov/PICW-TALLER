@@ -1,22 +1,22 @@
-import React from 'react';
+import React from "react";
 import data from "../data/data.json";
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from "react-router-dom";
+
 const ServiceDetail = () => {
   const { id } = useParams();
-  const [servicio, setServicio] = React.useState(null);
+  const navigate = useNavigate();
+
+  const servicio = data.servicios.find(
+    s => String(s.id) === id
+  );
 
   React.useEffect(() => {
-    fetch('/src/data/data.json')
-      .then(res => res.json())
-      .then(data => {
-        const found = data.servicios.find(s => String(s.id) === id);
-        setServicio(found);
-      });
-  }, [id]);
+    if (!servicio) {
+      navigate("/error");
+    }
+  }, [servicio, navigate]);
 
-  if (!servicio) {
-    return <div>Cargando...</div>;
-  }
+  if (!servicio) return null;
 
   return (
     <div className="card">
@@ -29,7 +29,9 @@ const ServiceDetail = () => {
           ))}
         </ul>
         <hr />
-        <Link to="/servicios" className="btn btn-secondary">Volver al listado</Link>
+        <Link to="/servicios" className="btn btn-secondary">
+          Volver al listado
+        </Link>
       </div>
     </div>
   );
