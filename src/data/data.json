@@ -1,12 +1,95 @@
 {
   "inicio": {
-    "titulo": "PICW Taller",
-    "descripcion": "Concesionario de vehículos nuevos y seminuevos, enfocado en calidad, seguridad y confianza para nuestros clientes."
+    "titulo": "El Visaje Sobre Ruedas",
+    "descripcion": "Tu concesionario de confianza en Quito",
+    "subtitulo": "Nosotros somos lo primero que quiere la mujer de esta era",
+    "imagen": "https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=800&q=80",
+    "beneficios": [
+      "Asesoría personalizada en cada paso",
+      "Variedad de autos nuevos y seminuevos",
+      "Financiamiento flexible y rápido",
+      "Taller propio con técnicos certificados"
+    ]
   },
   "contacto": {
     "direccion": "Av. 6 de Diciembre y Gaspar de Villarroel, Quito",
     "telefono": "+593 2 456 7890",
     "email": "ventas@picwtaller.ec",
     "horario": "Lunes a Sábado: 09h00 - 18h30"
-  }
+  },
+  "servicios": [
+    {
+      "id": 1,
+      "titulo": "Venta de Autos",
+      "descripcion": "Ofrecemos una amplia variedad de vehículos nuevos y usados de diferentes marcas y modelos. Todos nuestros autos cuentan con garantía y respaldo.",
+      "detalles": [
+        "Vehículos nuevos y seminuevos certificados",
+        "Asesoría personalizada en la compra",
+        "Pruebas de manejo disponibles",
+        "Trámites de matriculación y transferencia"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Servicio Técnico",
+      "descripcion": "Nuestro taller cuenta con técnicos certificados y equipos de última tecnología para el mantenimiento y reparación de tu vehículo.",
+      "detalles": [
+        "Mantenimiento preventivo y correctivo",
+        "Diagnóstico computarizado",
+        "Reparaciones mecánicas y eléctricas",
+        "Atención rápida y profesional"
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Financiamiento",
+      "descripcion": "Te ofrecemos opciones flexibles de crédito y leasing para que adquieras tu vehículo de la manera más conveniente.",
+      "detalles": [
+        "Crédito directo y a través de bancos",
+        "Planes de financiamiento personalizados",
+        "Asesoría en requisitos y trámites",
+        "Simulación de cuotas sin compromiso"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Repuestos y Accesorios",
+      "descripcion": "Contamos con un amplio stock de repuestos originales y accesorios para personalizar y mantener tu auto en óptimas condiciones.",
+      "detalles": [
+        "Repuestos originales garantizados",
+        "Accesorios para todas las marcas",
+        "Instalación profesional",
+        "Promociones y descuentos especiales"
+      ]
+    }
+  ],
+  "catalogo": [
+    {
+      "id": 1,
+      "nombre": "Corolla",
+      "marca": "Toyota",
+      "modelo": "2022",
+      "color": "Blanco",
+      "descripcion": "Sedán confiable, eficiente y cómodo, ideal para la ciudad y carretera.",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7vGmici8HeyBSuD1_nUzIMUYoqQImke6UIw&s"
+    },
+    {
+      "id": 2,
+      "nombre": "CX-5",
+      "marca": "Mazda",
+      "modelo": "2023",
+      "color": "Rojo",
+      "descripcion": "SUV moderno con gran equipamiento, seguridad y excelente desempeño.",
+      "imagen": "https://acroadtrip.blob.core.windows.net/catalogo-imagenes/xl/RT_V_3eb836d3741b4f24a1641202bd150f4f.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Hilux",
+      "marca": "Toyota",
+      "modelo": "2021",
+      "color": "Gris",
+      "descripcion": "Pickup robusta, potente y versátil, perfecta para trabajo y aventura.",
+      "imagen": "https://marketin-strapi-storage.s3.us-east-1.amazonaws.com/Foto_Principal_Web_HILUX_4x4_1_c9f3cf6da9.webp"
+    }
+  ]
 }

@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Services = () => {
   const listaServicios = [
-    { id: 1, title: "Desarrollo Web", icon: "💻", desc: "Sitios modernos y veloces." },
-    { id: 2, title: "Apps Móviles", icon: "📱", desc: "Android y iOS nativos." },
-    { id: 3, title: "Marketing", icon: "📈", desc: "Estrategias de crecimiento." },
-    { id: 4, title: "Consultoría", icon: "jhs", desc: "Expertos a tu servicio." }, 
+    { id: 1, title: "Venta de Autos", icon: "🚗", desc: "Amplia variedad de vehículos nuevos y usados." },
+    { id: 2, title: "Servicio Técnico", icon: "🛠️", desc: "Mantenimiento y reparación profesional." },
+    { id: 3, title: "Financiamiento", icon: "💰", desc: "Opciones flexibles de crédito y leasing." },
+    { id: 4, title: "Repuestos y Accesorios", icon: "🔧", desc: "Piezas originales y accesorios para tu auto." },
   ];
 
   return (
@@ -16,7 +16,6 @@ const Services = () => {
         <p className="lead text-muted">Soluciones digitales a tu medida</p>
       </div>
 
-      {/* AQUÍ ESTÁ LA MAGIA RESPONSIVE */}
       {/* row = fila */}
       {/* col-12 = en móvil ocupa todo el ancho (1 columna) */}
       {/* col-md-6 = en tablet ocupa la mitad (2 columnas) */}
