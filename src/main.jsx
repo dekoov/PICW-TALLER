@@ -8,6 +8,5 @@ import Router from './app/Router' // Importamos nuestro router
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Router />
-    <App />
   </StrictMode>,
 )
