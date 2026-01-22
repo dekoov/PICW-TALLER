@@ -1,32 +1,15 @@
-import React from 'react';
-import data from "../data/data.json";
-import { Outlet, NavLink } from 'react-router-dom';
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const MainLayout = () => {
-  // Función para clase activa de Bootstrap 
-  const getActiveClass = ({ isActive }) =>
-    isActive ? "nav-link active fw-bold text-primary" : "nav-link text-dark";
-
   return (
     <div className="d-flex flex-column min-vh-100">
+      
       {/* HEADER */}
-      <header className="bg-light shadow-sm py-3 mb-4">
-        <div className="container d-flex justify-content-between align-items-center">
-          <h1 className="h4 m-0">El Visaje Sobre Ruedas</h1>
-          <nav>
-            <ul className="nav">
-              <li className="nav-item"><NavLink to="/" className={getActiveClass}>Inicio</NavLink></li>
-              <li className="nav-item"><NavLink to="/acerca" className={getActiveClass}>Acerca</NavLink></li>
-              <li className="nav-item"><NavLink to="/servicios" className={getActiveClass}>Servicios</NavLink></li>
-              <li className="nav-item"><NavLink to="/catalogo" className={getActiveClass}>Catálogo</NavLink></li>
-              <li className="nav-item"><NavLink to="/contacto" className={getActiveClass}>Contacto</NavLink></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <Navbar />
 
-      {/* CONTENIDO VARIABLE (Outlet) */}
-      <main className="container flex-grow-1">
+      {/* CONTENIDO */}
+      <main className="container flex-grow-1 mt-4">
         <Outlet />
       </main>
 
