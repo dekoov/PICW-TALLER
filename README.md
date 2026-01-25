@@ -1,11 +1,28 @@
 # Proyecto Base (Vite + React)
 
 Este proyecto es la base estructural para el Taller Está construido con **Vite**, **React Router DOM** y **Bootstrap**, siguiendo una arquitectura escalable y limpia.
+Se construyo una página web para un negocio de Venta de Autos, la pagina incluye las siguientes vistas
+- Home
+- Acerca de
+- Servicios
+- Catalogo
+- Contacto
+
+Esta evidencia el uso de componentes React sobre la libreria React Router encargada de gestionar la navegacion y el enrutamiento de la aplicacion
 
 ## Requisitos Pr
 
 * Tener instalado **Node.js** (versión 16 o superior recomendada).
 * Gestor de paquetes `npm` (viene con Node).
+
+## Imagenes del proyecto
+
+![](https://i.imgur.com/F5EMxGH.png)
+
+![](https://i.imgur.com/jMemnu0.png)
+
+![](https://i.imgur.com/MStdd4c.png)
+
 
 ## Instalación para que corra
 
